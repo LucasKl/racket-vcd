@@ -1,0 +1,588 @@
+$date
+	Tue Oct 22 14:15:47 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module InputBufferTb $end
+$var wire 4 ! outputs [3:0] $end
+$var wire 1 " out_valid $end
+$var wire 1 # in_ready $end
+$var reg 1 $ clk $end
+$var reg 10 % cnt [9:0] $end
+$var reg 1 & done $end
+$var reg 32 ' in_data [31:0] $end
+$var reg 1 ( in_valid $end
+$var reg 1 ) out_ready $end
+$var reg 1 * rst $end
+$scope module dut $end
+$var wire 32 + in_data [31:0] $end
+$var wire 1 ( in_valid $end
+$var wire 1 ) out_ready $end
+$var wire 1 $ clk $end
+$var wire 1 * sys_rst $end
+$var reg 5 , buffer [4:0] $end
+$var reg 2 - counter [1:0] $end
+$var reg 2 . counter_next_value1 [1:0] $end
+$var reg 1 / counter_next_value_ce1 $end
+$var reg 1 0 dummy_d $end
+$var reg 1 1 dummy_s $end
+$var reg 4 2 fill_counter [3:0] $end
+$var reg 4 3 fill_counter_next_value0 [3:0] $end
+$var reg 1 4 fill_counter_next_value_ce0 $end
+$var reg 1 # in_ready $end
+$var reg 1 5 line_counter $end
+$var reg 1 6 line_counter_next_value2 $end
+$var reg 1 7 line_counter_next_value_ce2 $end
+$var reg 1 8 next_state $end
+$var reg 1 9 next_value0 $end
+$var reg 1 : next_value1 $end
+$var reg 1 ; next_value2 $end
+$var reg 1 < next_value3 $end
+$var reg 1 = next_value4 $end
+$var reg 1 > next_value_ce0 $end
+$var reg 1 ? next_value_ce1 $end
+$var reg 1 @ next_value_ce2 $end
+$var reg 1 A next_value_ce3 $end
+$var reg 1 B next_value_ce4 $end
+$var reg 4 C out_data [3:0] $end
+$var reg 1 D out_last $end
+$var reg 1 " out_valid $end
+$var reg 1 E state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0E
+0D
+b0 C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+b0 3
+b0 2
+01
+00
+0/
+b0 .
+b0 -
+b0 ,
+b0 +
+1*
+1)
+0(
+b0 '
+x&
+bx %
+0$
+1#
+0"
+b11011 !
+$end
+#1000
+0&
+b0 %
+1$
+#2000
+0$
+#3000
+1$
+#4000
+0$
+#5000
+1$
+#6000
+0$
+#7000
+1$
+#8000
+0$
+#9000
+1#
+b1 '
+b1 +
+0*
+1$
+#10000
+0$
+#11000
+1$
+#12000
+0$
+#13000
+14
+b1 3
+1B
+1=
+1A
+1@
+1?
+1>
+1#
+1(
+1$
+#14000
+0$
+#15000
+b0 '
+b0 +
+1<
+14
+b10 3
+1B
+0=
+1A
+1@
+1?
+1>
+1#
+b1 %
+b1 2
+b1 ,
+1$
+#16000
+0$
+#17000
+1=
+1;
+14
+b11 3
+1B
+1A
+0<
+1@
+1?
+1>
+1#
+b1 '
+b1 +
+b10 2
+b10 ,
+b10 %
+1$
+#18000
+0$
+#19000
+b0 '
+b0 +
+1<
+1:
+14
+b100 3
+1B
+0=
+1A
+1@
+0;
+1?
+1>
+1#
+b11 %
+b11 2
+b101 ,
+1$
+#20000
+0$
+#21000
+1=
+18
+1;
+19
+14
+b101 3
+1B
+1A
+0<
+1@
+1?
+0:
+1>
+1#
+b1 '
+b1 +
+b100 2
+b1010 ,
+b100 %
+1$
+#22000
+0$
+#23000
+b0 '
+b0 +
+1/
+b1 .
+b1001 !
+b1001 C
+1"
+14
+b100 3
+0B
+0=
+0A
+0@
+0;
+0?
+0>
+09
+08
+0#
+b101 %
+b101 2
+b10101 ,
+1E
+1$
+#24000
+0$
+#25000
+1#
+08
+0/
+b0 .
+04
+b0 3
+0"
+b0 !
+b0 C
+b100 2
+0E
+0(
+b1 -
+1$
+#26000
+0$
+#27000
+1$
+#28000
+0$
+#29000
+1$
+#30000
+0$
+#31000
+1$
+#32000
+0$
+#33000
+1$
+#34000
+0$
+#35000
+18
+14
+b101 3
+1B
+1A
+1<
+1@
+1?
+1:
+1>
+1#
+1(
+1$
+#36000
+0$
+#37000
+1/
+b10 .
+b110 !
+b110 C
+1"
+14
+b100 3
+0B
+0A
+0<
+0@
+0?
+0:
+0>
+08
+0#
+b1 '
+b1 +
+b101 2
+b1010 ,
+1E
+b110 %
+1$
+#38000
+0$
+#39000
+1B
+1=
+1A
+1@
+1;
+1?
+1>
+19
+1#
+07
+06
+18
+0/
+b0 .
+14
+b101 3
+0"
+b0 !
+b0 C
+b100 2
+0E
+b10 -
+1$
+#40000
+0$
+#41000
+17
+16
+1/
+b1001 !
+b1001 C
+14
+b100 3
+0B
+0=
+0A
+0@
+0;
+0?
+0>
+09
+08
+0#
+b0 '
+b0 +
+b101 2
+b10101 ,
+1E
+b111 %
+1$
+#42000
+0$
+#43000
+1B
+1A
+1<
+1@
+1?
+1:
+1>
+1#
+b0 .
+0"
+18
+07
+06
+0/
+14
+b101 3
+b0 !
+b0 C
+15
+b100 2
+0E
+b0 -
+1$
+#44000
+0$
+#45000
+1/
+b1 .
+b110 !
+b110 C
+1"
+14
+b100 3
+0B
+0A
+0<
+0@
+0?
+0:
+0>
+08
+0#
+b1 '
+b1 +
+b101 2
+b1010 ,
+1E
+b1000 %
+1$
+#46000
+0$
+#47000
+1B
+1=
+1A
+1@
+1;
+1?
+1>
+19
+1#
+0D
+18
+0/
+b0 .
+14
+b101 3
+0"
+b0 !
+b0 C
+b100 2
+0E
+b1 -
+1$
+#48000
+0$
+#49000
+1/
+b10 .
+b1001 !
+b1001 C
+1D
+1"
+14
+b100 3
+0B
+0=
+0A
+0@
+0;
+0?
+0>
+09
+08
+0#
+b101 2
+b10101 ,
+1E
+1&
+1$
+#50000
+0$
+#51000
+1#
+07
+08
+0/
+b0 .
+04
+b0 3
+0D
+0"
+b0 !
+b0 C
+b0 '
+b0 +
+0(
+b100 2
+0E
+b10 -
+1$
+#52000
+0$
+#53000
+1$
+#54000
+0$
+#55000
+1$
+#56000
+0$
+#57000
+1$
+#58000
+0$
+#59000
+1$
+#60000
+0$
+#61000
+1$
+#62000
+0$
+#63000
+1$
+#64000
+0$
+#65000
+1$
+#66000
+0$
+#67000
+1$
+#68000
+0$
+#69000
+1$
+#70000
+0$
+#71000
+1$
+#72000
+0$
+#73000
+1$
+#74000
+0$
+#75000
+1$
+#76000
+0$
+#77000
+1$
+#78000
+0$
+#79000
+1$
+#80000
+0$
+#81000
+1$
+#82000
+0$
+#83000
+1$
+#84000
+0$
+#85000
+1$
+#86000
+0$
+#87000
+1$
+#88000
+0$
+#89000
+1$
+#90000
+0$
+#91000
+1$
+#92000
+0$
+#93000
+1$
+#94000
+0$
+#95000
